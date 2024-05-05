@@ -1,0 +1,57 @@
+.cardBox {
+    width: 33%;
+    padding: 70px 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border: 1px solid #edecec;
+}
+
+.cardBox:hover {
+    background-color: #feb633;
+    transition: all 1s;
+}
+
+.cardBox p {
+    color: #8a8fa3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.cardBox h4 {
+    color: #32333c;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.primeiroParagrafo {
+    margin-bottom: 5px;
+}
+
+.segundoParagrafo {
+    margin-bottom: 20px;
+}
+
+.cardLight {
+    color: #32333c;
+    border: 1px solid #edecec;
+}
+
+.cardDark {
+    border: 1px solid #ffffff0d;
+}
+
+.cardDark h4 {
+    color: #ffffff;
+}
+
+.cardDark p {
+    color: #9F9F9F;
+}
+
+@media screen and (max-width: 768px) {
+    .cardBox {
+        width: auto;
+    }
+}

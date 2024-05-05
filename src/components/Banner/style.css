@@ -1,0 +1,62 @@
+.sectionBanner {
+    width: 100%;
+    height: 95vh;
+    padding-top: 80px;
+    display: flex;
+    background-color: #fdfdfd;
+}
+
+.containerImg {
+    width: 50%;
+    background-image: url('../../../public/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.textContainer {
+    width: 50%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textContainer p {
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: #022144;
+}
+
+.textContainer h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #022144;
+}
+
+.textContainer span {
+    font-size: 50px;
+    font-weight: 900;
+    color: #022144;
+}
+
+.containerLight {
+    background-color: #fff;
+}
+
+.containerDark {
+    background-color: #252525;
+
+}
+
+@media (max-width: 768px) {
+    .containerImg {
+        display: none;
+    }
+
+    .textContainer {
+        width: 100%;
+    }
+}
